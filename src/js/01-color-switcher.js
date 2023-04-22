@@ -1,9 +1,3 @@
-// BTN.disabled = false; //Звертаємось до атрибуту, щоб активувати і назад
-
-// if (btn2.disabled === true) {
-//   btn2.disabled= false;
-// }
-
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215)
     .toString(16)
