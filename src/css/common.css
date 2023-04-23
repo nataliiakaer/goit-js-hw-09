@@ -34,3 +34,20 @@ button {
   width: 100px;
   text-transform: uppercase;
 }
+
+.timer {
+  display: flex;
+  gap: 12px;
+  padding-top: 20px;
+}
+
+.value {
+  font-size: 32px;
+  display: block;
+  text-align: center;
+}
+.label {
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+}
