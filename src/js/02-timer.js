@@ -44,7 +44,6 @@ function onClick() {
       clearInterval(timerId);
     }
 
-    console.log(convertMs(timeDifference));
     addLeadingZero(convertMs(timeDifference));
     elements.btnStart.setAttribute('disabled', true);
     elements.input.setAttribute('disabled', true);

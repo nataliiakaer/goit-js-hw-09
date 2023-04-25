@@ -51,3 +51,17 @@ button {
   text-align: center;
   text-transform: uppercase;
 }
+
+.form {
+  display: flex;
+  gap: 12px;
+  align-items: flex-end;
+}
+
+.form input {
+  display: block;
+}
+
+.form button {
+  height: 20px;
+}
